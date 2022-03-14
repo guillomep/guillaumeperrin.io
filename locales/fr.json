@@ -1,0 +1,73 @@
+{
+    "locale": {
+        "current": "fr",
+        "other": "",
+        "other-flag": "united-kingdom"
+    },
+    "meta": {
+        "description": {
+            "content": "Site web personnel de mes expériences professionnelles"
+        }
+    },
+    "navbar": {
+        "items": {
+            "about": "A propros",
+            "experience": "Expériences professionelles",
+            "education": "Études",
+            "skills": "Compétences",
+            "projects": "Petits projets"
+        }
+    },
+    "about": {
+        "intro": "Je travaille actuellement chez <a href=\"https://www.linxo.com\">Linxo</a> une FinTech française spécialisée dans la gestion des finances personnelles pour le B2C et B2B.",
+        "jobs": "Pour toute proposition de travail merci de me contacter à l'adresse suivante : <a href=\"mailto:jobs@guillaumeperrin.io\">jobs@guillaumeperrin.io</a>.",
+        "social-icons": {
+            "linkedin": "Profil LinkedIn",
+            "github": "Profil Github"
+        }
+    },
+    "experience": {
+        "software-engineer": "Ingénieur en développement",
+        "internship": "Stage",
+        "linxo1": "Je travaille actuellement chez <a href=\"https://www.linxo.com\">Linxo</a> à Aix-en-Provence en France.",
+        "linxo2": "Je suis dans l'équipe de \"Site Reliability Engineering\", qui est responsable de l'infrastruture de production et des outils de développement. L'équipe gère les scripts d'intégration continue et de déploiements, mais réalise également du conseil et des solutions pour permettre au développeurs d'écrire du code correct et sûr avant de le livrer en production.",
+        "linxo3": "Je développe également des outils permettant aux développeurs de tester correctement les produits de Linxo, mais aussi des composants critiques comme ceux permettant de communiquer avec les modules de sécurités (HSM) et la connexion aux banques.",
+        "linxo-date": "Février 2018 - Aujourd'hui",
+        "antidot1": "Ce travail a eu lieu chez <a href=\"https://www.antidot.net\">Antidot</a> à Lambesc près Aix-en-Provence en France.",
+        "antidot2": "Je travaillais dans l'équipe \"Platform\" responsable du moteur de recherche, de la solution d'indexation ainsi que du back-office permettant de configurer l'outil.",
+        "antidot3": "J'ai d'abord démarré sur l'outil de back-office avant de travailler sur la solution d'indexation. J'ai également maintenu les scripts d'intégration continue, de création de paquets pour le déploiement et l'intégration des logiciels et bibliothèques open-source dans les produits.",
+        "antidot-date": "Octobre 2015 - Février 2018",
+        "ibm1": "Ce stage a eu lieu chez <a href=\"https://www.ibm.com/\">IBM</a> à Montpellier, en France, dans un centre client.",
+        "ibm2": "Le principal objectif de ce stage était de développer un outil de test automatique pour la <a href=\"https://www-03.ibm.com/systems/z/advantages/gdps/\">solution GDPS</a>. GDPS est un produit pour le mainframe.",
+        "ibm3": "Durant ce stage, un site web a été déployé afin de pouvoir créer et exécuter des cas de tests et des outils sur le mainframe puis de récupérer le résultat de ceux-ci.",
+        "ibm-date": "Mars 2015 - Août 2015",
+        "st1": "Ce stage a eu lieu chez <a href=\"https://st.com\">ST Microelectronics</a> à Grenoble en France.",
+        "st2": "Le principal objectif de ce stage était de développer une application pour aider les ingénieurs à analyser les données provenant de la fabrication des circuits intégrés afin de les résumer. Grâce à cet outil les ingénieurs peuvent avoir une vision globale sur les résultats de tests effectués lors de la fabrication et leur permettre de trouver les problèmes plus rapidement.",
+        "st-date": "Juin 2014 - Août 2014"
+    },
+    "education": {
+        "engineer-diploma": "Diplôme d'ingénieur",
+        "dut-diploma": "Diplôme Universitaire de Technologie",
+        "bac-diploma": "Baccalauréat",
+        "relevant-courses-sup": "Principaux cours: Programmation informatique, Mathématiques",
+        "relevant-courses-bac": "Principaux cours: Mathématiques, Anglais, Électronique, Mécanique"
+    },
+    "skills": {
+        "programming": "Langages de programmation",
+        "tools": "Outils",
+        "cloud-providers": "Cloud providers",
+        "os": "Systèmes d'exploitation"
+    },
+    "projects": {
+        "car-title": "Voiture autonome",
+        "car1": "C'est un projet scolaire réalisé lors de ma deuxième année d'école à l'Ensimag. Je l'ai fait avec 2 autres étudiants sur 3 semaines.",
+        "car2": "Ce projet était une preuve de concept, qui avait pour but d'être utilisé comme base de travaux pratiques dans l'école par la suite.",
+        "car3": "Nous avons utilisé des voitures radio-commandées avec une webcam, une tablette windows ainsi qu'un arduino. La tablette analysait les images de la webcam, puis envoyait les commandes à l'arduino qui actionnait les servo-moteurs de direction et d'accélération.",
+        "car4": "Les informations sur ce projet sont disponibles sur cette <a href=\"http://fablab.ensimag.fr/index.php/Cannonball_de_voitures_RC/FicheSuivi\">page</a>.",
+        "steeve1": "C'est un projet scolaire réalisé lors de ma seconde année à l'IUT. Il a été fait avec 3 autres étudiants sur une durée de 6 mois.",
+        "steeve2": "C'était notre première expérience avec le C++ et le développement d'un jeu vidéo. Cela a été beaucoup plus difficle que nous l'imaginions.",
+        "steeve3": "Le résultat a été une application fonctionnelle, sur Windows.",
+        "steeve4": "Si je devais refaire ce projet aujourd'hui, je ne le ferais certainement pas de la même manière. En effet, on était vraiment dépendant de Visual Studio et de nombreuses bibliothèques ce qui rend le maintien, la portabilité du projet difficile."
+    }
+}
+

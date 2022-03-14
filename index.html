@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html data-attr-t lang-t="locale">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="Personal website which is a portofolio of my professional life" />
+        <meta name="description" data-attr-t content-t="meta.description.content" />
         <meta name="author" content="Guillaume Perrin" />
         <meta name="theme-color" content="#5c90c7">
         <title>Guillaume Perrin</title>
@@ -16,7 +16,11 @@
         <noscript><link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700&display=swap" rel="stylesheet" type="text/css" /></noscript>
         <link rel="preload" href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i&display=swap" as="font" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i&display=swap" rel="stylesheet" type="text/css" /></noscript>
+        <!-- Twemoji -->
+        <link rel="preload" href="https://cdn.jsdelivr.net/gh/SebastianAigner/twemoji-amazing@1.0.0/twemoji-amazing.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/SebastianAigner/twemoji-amazing@1.0.0/twemoji-amazing.css"></noscript>
         <!-- Core theme CSS -->
+        <link rel="stylesheet" href="">
         <link rel="preload" href="css/styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="css/styles.css"></noscript>
     </head>
@@ -30,11 +34,12 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger active" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Little projects</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger active" href="#about" data-t>navbar.items.about</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience" data-t>navbar.items.experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education" data-t>navbar.items.education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills" data-t>navbar.items.skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects" data-t>navbar.items.projects</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" data-attr-t data-attr-t-interpolate href-t="/{{locale.other}}"><i data-attr-t data-attr-t-interpolate class-t="twa twa-flag-{{locale.other-flag}}" title="France" aria-label="France"></i></a></li>
                 </ul>
             </div>
         </nav>
@@ -51,12 +56,11 @@
                         Aix-en-Provence, France
                         <a href="mailto:contact@guillaumeperrin.io">contact@guillaumeperrin.io</a>
                     </div>
-                    <p class="lead mb-5">I am currently working at <a href="https://www.linxo.com">Linxo</a> a french company that made a Personal Financial Management for B2C and B2B.</p>
-                    <p>For job proposition contact me at <a href="mailto:jobs@guillaumeperrin.io">jobs@guillaumeperrin.io</a>.
+                    <p class="lead mb-5" data-t>about.intro</p>
+                    <p data-t>about.jobs</p>
                     <div class="social-icons">
-                        <a class="social-icon"
-                            href="https://fr.linkedin.com/in/guillaume-perrin-dev" title="LinkedIn" aria-label="LinkedIn profile"><i class="devicon-linkedin-plain" aria-hidden="true"></i></a>
-                        <a class="social-icon" href="https://github.com/guillomep" title="Github" aria-label="Github profile"><i class="devicon-github-original" aria-hidden="true"></i></a>
+                        <a class="social-icon" href="https://fr.linkedin.com/in/guillaume-perrin-dev" data-attr-t title-t="about.social-icon.linkedin" aria-label-t="about.social-icon.linkedin"><i class="devicon-linkedin-plain" aria-hidden="true"></i></a>
+                        <a class="social-icon" href="https://github.com/guillomep" data-attr-t title-t="about.social-icon.linkedin" aria-label-t="about.social-icon.linkedin"><i class="devicon-github-original" aria-hidden="true"></i></a>
                     </div>
                 </div>
             </section>
@@ -67,42 +71,35 @@
                     <h2 class="mb-5">Experience</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Software Engineer</h3>
+                            <h3 class="mb-0" data-t>experience.software-engineer</h3>
                             <div class="subheading mb-3">Linxo</div>
-                            <p>I am currently working at <a href="https://www.linxo.com">Linxo</a> in Aix-en-Provence, France.</p>
-<p>I work in the Site Relibility Engineering team, that is responsible of the production infrastructure and the development tools. The team takes care of the CI/CD pipelines, and also give advices and solutions to allow developers to right good code and deliver them safely to production.</p>
-<p>I also develop tools to help developers to test Linxo products, or critical components like handling of security module (HSM) or connections to banks.</p>
+                            <p data-t>experience.linxo1</p><p data-t>experience.linxo2</p><p data-t>experience.linxo3</p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">February 2018 - Present</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary" data-t>experience.linxo-date</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Software Engineer</h3>
+                            <h3 class="mb-0" data-t>experience.software-engineer</h3>
                             <div class="subheading mb-3">Antidot</div>
-                            <p>This work take place at <a href="https://www.antidot.net">Antidot</a> in Lambesc near Aix-en-Provence in France.</p>
-<p>I worked in the Platform team which is responsible of search engine, indexation solution and back-office used to configure the solution.</p>
-<p>I started working on the back-office software, and then worked on indexation solution too. I also take care of CI pipelines, packaging deployment and integration of opensource software and libraries in our products.</p>
+                            <p data-t>experience.antidot1</p><p data-t>experience.antidot2</p><p data-t>experience.antidot3</p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">October 2015 - February 2018</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary" data-t>experience.antidot-date</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Internship</h3>
+                            <h3 class="mb-0" data-t>experience.internship</h3>
                             <div class="subheading mb-3">IBM</div>
-                            <p>This internship took place at <a href="https://www.ibm.com/">IBM</a> in Montpellier in a Client Center.</p>
-<p>The main goal of this internship was to develop an automated testing tool for the <a href="https://www-03.ibm.com/systems/z/advantages/gdps/">GDPS Solution</a>. GDPS is a product for mainframe.</p>
-<p>During the internship, a website has been developed to create and execute test cases and tools on mainframe to get information and send commands to execute too.</p>
+                            <p data-t>experience.ibm1</p><p data-t>experience.ibm2</p><p data-t>experience.ibm3</p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">March 2015 - August 2015</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary" data-t>experience.ibm-date</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Internship</h3>
+                            <h3 class="mb-0" data-t>experience.internship</h3>
                             <div class="subheading mb-3">ST Microelectronics</div>
-                            <p>This internship took place in Grenoble at <a href="https://st.com">ST Microelectronics</a>.</p>
-<p>The main goal of this internship was to develop an application which helps engineers to analyse testing data of the integrated circuits by processing and summarizing them. Engineers can have a global vision of test results and can therefore find the reason of failures easier.</p>
+                            <p data-t>experience.st1</p><p data-t>experience.st2</p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">June 2014 - August 2014</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary" data-t>experience.st-date</span></div>
                     </div>
                 </div>
             </section>
@@ -114,8 +111,8 @@
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Ecole Nationale Supérieur d’Informatique et Mathématiques Appliqués de Grenoble</h3>
-                            <div class="subheading mb-3">Engineer diploma</div>
-                            <p>Relevant Courses: Computer programming, Mathematics</p>
+                            <div class="subheading mb-3" data-t>education.engineer-diploma</div>
+                            <p data-t>education.relevant-courses-sup</p>
                             <p>TOEIC: 955</p>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">2012 - 2015</span></div>
@@ -123,16 +120,16 @@
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Université Lyon 1</h3>
-                            <div class="subheading mb-3">Diplôme Universitaire de Technologie, 2-year intensive university diploma in computing sciences</div>
-                            <p>Relevant Courses: Computer programming, Mathematics</p>
+                            <div class="subheading mb-3" data-t>education.dut-diploma</div>
+                            <p data-t>education.relevant-courses-sup</p>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">2010 - 2012</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Lycée Carriat</h3>
-                            <div class="subheading mb-3">Baccalaureate, Final Secondary School Qualification with honors (A level)</div>
-                            <p>Relevant Courses: Mathematics, English, Electronics, Mechanics</p>
+                            <div class="subheading mb-3" data-t>education.bac-diploma</div>
+                            <p data-t>education.relevant-courses-bac</p>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">2010</span></div>
                     </div>
@@ -143,7 +140,7 @@
             <section class="resume-section" id="skills">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Skills</h2>
-                    <div class="subheading mb-3">Programming Languages</div>
+                    <div class="subheading mb-3" data-t>skills.programming</div>
                     <ul class="list-inline dev-icons">
                         <li class="list-inline-item"><i title="Java" aria-label="Java" class="devicon-java-plain"></i></li>
                         <li class="list-inline-item"><i title="Python" aria-label="Python" class="devicon-python-plain"></i></li>
@@ -152,7 +149,7 @@
                         <li class="list-inline-item"><i title="HTML5" aria-label="HTML5" class="devicon-html5-plain"></i></li>
                         <li class="list-inline-item"><i title="CSS3" aria-label="CSS3" class="devicon-css3-plain"></i></li>
                     </ul>
-                    <div class="subheading mb-3">Tools</div>
+                    <div class="subheading mb-3" data-t>skills.tools</div>
                     <ul class="list-inline dev-icons">
                         <li class="list-inline-item"><i title="Jenkins" aria-label="Jenkins" class="devicon-jenkins-line"></i></li>
                         <li class="list-inline-item"><i title="Kubernetes" aria-label="Kubernetes" class="devicon-kubernetes-plain"></i></li>
@@ -161,11 +158,11 @@
                         <li class="list-inline-item"><i title="Postgresql" aria-label="Postgresql" class="devicon-postgresql-plain"></i></li>
                         <li class="list-inline-item"><i title="SSH" aria-label="SSH" class="devicon-ssh-original-wordmark"></i></li>
                     </ul>
-                    <div class="subheading mb-3">Cloud providers</div>
+                    <div class="subheading mb-3" data-t>skills.cloud-providers</div>
                     <ul class="list-inline dev-icons">
                         <li class="list-inline-item"><i title="AWS" aria-label="AWS" class="devicon-amazonwebservices-plain-wordmark"></i></li>
                     </ul>
-                    <div class="subheading mb-3">OS</div>
+                    <div class="subheading mb-3" data-t>skills.os</div>
                     <ul class="list-inline dev-icons">
                         <li class="list-inline-item"><i title="Linux" aria-label="Linux" class="devicon-linux-plain"></i></li>
                         <li class="list-inline-item"><i title="OSX" aria-label="OSX" class="devicon-apple-original"></i></li>
@@ -179,21 +176,14 @@
                     <h2 class="mb-5">Little projects</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Autonomous car</h3>
-                            <p>This is a school project, made at the end of my second year at Ensimag. It has been made with two other students during 3 weeks.</p>
-<p>This project was developed for a proof of concept and it will be used as a base for pratical works in school.</p>
-<p>We use RC cars with a webcam, a Windows Tablet and an Arduino on them. Then, the tablet processes images from the webcam, and sends commands for steering and throttle to the Arduino which will control servomotors.</p>
-<p>You can find the project's run on this <a href="http://fablab.ensimag.fr/index.php/Cannonball_de_voitures_RC/FicheSuivi">page</a> (in French).</p>
+                            <h3 class="mb-0" data-t>projects.car-title</h3>
+                            <p data-t>projects.car1</p><p data-t>projects.car2</p><p data-t>projects.car3</p><p data-t>projects.car4</p>
                         </div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Escape Steeve</h3>
-                            <p>This is a school project, made during my second year at IUT (two-years technical degree). It has been made with three other students during 6 months.</p>
-<p>This was our first real experience with C++ and video game development which was harder than we expected.</p>
-<p>The result of the development was a working application, on Windows.</p>
-<p>If I had the opportunity to make this game again, I would certainly not do it the same way. In fact, we were really dependent on Visual Studio and on many libraries that made it very difficult to compile.</p>
-<p>The crappy source code is <a href="https://www.guillaumeperrin.io/res/EscapeSteeve.zip">here</a>.</p>
+                            <p data-t>projects.steeve1</p><p data-t>projects.steeve2</p><p data-t>projects.steeve3</p><p data-t>projects.steeve4</p>
                         </div>
                     </div>
                 </div>
