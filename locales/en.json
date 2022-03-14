@@ -1,0 +1,72 @@
+{
+    "locale": {
+        "current": "en",
+        "other": "fr",
+        "other-flag": "france"
+    },
+    "meta": {
+        "description": {
+            "content": "Personal website which is a portofolio of my professional life"
+        }
+    },
+    "navbar": {
+        "items": {
+            "about": "About",
+            "experience": "Experience",
+            "education": "Education",
+            "skills": "Skills",
+            "projects": "Little projects"
+        }
+    },
+    "about": {
+        "intro": "I am currently working at <a href=\"https://www.linxo.com\">Linxo</a> a french company that made a Personal Financial Management for B2C and B2B.",
+        "jobs": "For job proposition contact me at <a href=\"mailto:jobs@guillaumeperrin.io\">jobs@guillaumeperrin.io</a>.",
+        "social-icons": {
+            "linkedin": "LinkedIn Profile",
+            "github": "Github Profile"
+        }
+    },
+    "experience": {
+        "software-engineer": "Software Engineer",
+        "internship": "Internship",
+        "linxo1": "I am currently working at <a href=\"https://www.linxo.com\">Linxo</a> in Aix-en-Provence, France.",
+        "linxo2": "I work in the Site Reliability Engineering team, that is responsible of the production infrastructure and the development tools. The team takes care of the CI/CD pipelines, and also give advices and solutions to allow developers to write good code and deliver them safely to production.",
+        "linxo3": "I also develop tools to help developers to test Linxo products, or critical components like handling of security module (HSM) or connections to banks.",
+        "linxo-date": "February 2018 - Present",
+        "antidot1": "This work take place at <a href=\"https://www.antidot.net\">Antidot</a> in Lambesc near Aix-en-Provence in France.",
+        "antidot2": "I worked in the Platform team which is responsible of search engine, indexation solution and back-office used to configure the solution.",
+        "antidot3": "I started working on the back-office software, and then worked on indexation solution too. I also take care of CI pipelines, packaging deployment and integration of opensource software and libraries in our products.",
+        "antidot-date": "October 2015 - February 2018",
+        "ibm1": "This internship took place at <a href=\"https://www.ibm.com/\">IBM</a> in Montpellier, France, in a Client Center.",
+        "ibm2": "The main goal of this internship was to develop an automated testing tool for the <a href=\"https://www-03.ibm.com/systems/z/advantages/gdps/\">GDPS Solution</a>. GDPS is a product for mainframe.",
+        "ibm3": "During the internship, a website has been developed to create and execute test cases and tools on mainframe to get information and send commands to execute too.",
+        "ibm-date": "March 2015 - August 2015",
+        "st1": "This internship took place at <a href=\"https://st.com\">ST Microelectronics</a> in Grenoble, France.",
+        "st2": "The main goal of this internship was to develop an application which helps engineers to analyse testing data of the integrated circuits by processing and summarizing them. Engineers can have a global vision of test results and can therefore find the reason of failures easier.",
+        "st-date": "June 2014 - August 2014"
+    },
+    "education": {
+        "engineer-diploma": "Engineer diploma",
+        "dut-diploma": "Diplôme Universitaire de Technologie, 2-year intensive university diploma in computing sciences",
+        "bac-diploma": "Baccalaureate, Final Secondary School Qualification with honors (A level)",
+        "relevant-courses-sup": "Relevant courses: Computer programming, Mathematics",
+        "relevant-courses-bac": "Relevant Courses: Mathematics, English, Electronics, Mechanics"
+    },
+    "skills": {
+        "programming": "Programming Languages",
+        "tools": "Tools",
+        "cloud-providers": "Cloud providers",
+        "os": "Operating systems"
+    },
+    "projects": {
+        "car-title": "Autonomous car",
+        "car1": "This is a school project, made at the end of my second year at Ensimag. It has been made with two other students during 3 weeks.",
+        "car2": "This project was developed for a proof of concept and it will be used as a base for pratical works in school.",
+        "car3": "We use RC cars with a webcam, a Windows Tablet and an Arduino on them. Then, the tablet processes images from the webcam, and sends commands for steering and throttle to the Arduino which will control servomotors.",
+        "car4": "You can find the project's run on this <a href=\"http://fablab.ensimag.fr/index.php/Cannonball_de_voitures_RC/FicheSuivi\">page</a> (in French).",
+        "steeve1": "This is a school project, made during my second year at IUT (two-years technical degree). It has been made with three other students during 6 months.",
+        "steeve2": "This was our first real experience with C++ and video game development which was harder than we expected.",
+        "steeve3": "The result of the development was a working application, on Windows.",
+        "steeve4": "If I had the opportunity to make this game again, I would certainly not do it the same way. In fact, we were really dependent on Visual Studio and on many libraries that made it very difficult to compile."
+    }
+}
