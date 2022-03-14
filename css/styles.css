@@ -355,6 +355,11 @@ button:not(:disabled),
   color: #974a2d;
 }
 
+.navbar .nav-item .nav-link.active {
+  color: #fff;
+}
+
+
 .navbar {
   position: relative;
   display: flex;
