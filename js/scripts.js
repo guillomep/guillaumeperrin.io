@@ -31,5 +31,12 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
+    const preloadStyleSheets = [].slice.call(
+        document.head.querySelectorAll("link[rel=preload]")
+    );
+    preloadStyleSheets.map(function (stylesheet) {
+        stylesheet.rel = 'stylesheet';
+    });
+
 });
 
