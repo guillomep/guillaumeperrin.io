@@ -60,6 +60,8 @@
         "os": "Systèmes d'exploitation"
     },
     "projects": {
+        "externaldns1": "Ce projet implémente <a href=\"https://github.com/kubernetes-sigs/external-dns/blob/master/docs/tutorials/webhook-provider.md\">External DNS Webhook</a> afin de générer des enregistrements DNS dans un serveur <a href=\"https://www.nlnetlabs.nl/projects/unbound/about/\">Unbound</a>.",
+        "externaldns2": "Il est disponible sur <a href=\"https://github.com/guillomep/external-dns-unbound-webhook\">Github</a>.",
         "car-title": "Voiture autonome",
         "car1": "C'est un projet scolaire réalisé lors de ma deuxième année d'école à l'Ensimag. Je l'ai fait avec 2 autres étudiants sur 3 semaines.",
         "car2": "Ce projet était une preuve de concept, qui avait pour but d'être utilisé comme base de travaux pratiques dans l'école par la suite.",
